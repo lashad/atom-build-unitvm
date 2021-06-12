@@ -1,0 +1,19 @@
+{
+  "menu": [
+  {
+    "label": "Packages",
+    "submenu": [
+      {
+        "label": "Word Count",
+        "submenu": [
+          {
+            "label": "Toggle",
+            "command": "build-unitvm:toggle"
+          }
+        ]
+      }
+    ]
+  }
+],
+  "context-menu": {}
+}
