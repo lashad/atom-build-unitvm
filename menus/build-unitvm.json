@@ -4,10 +4,10 @@
     "label": "Packages",
     "submenu": [
       {
-        "label": "Word Count",
+        "label": "UnitVM",
         "submenu": [
           {
-            "label": "Toggle",
+            "label": "Upload to device",
             "command": "build-unitvm:toggle"
           }
         ]

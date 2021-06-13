@@ -12,8 +12,8 @@ In your project directory create file `.unitvm-build.yml` and add content below:
     name: AppName
     eui64: 2C:1C:F6:D9:00:00:00:00
 
-Where `name` is your application name and `eui64` is unique identifier of your application. 
-Please note: All your `.java` source files should be located under `src` directory.
+Where `name` is your application name and `eui64` is unique identifier of your application.
+Please note: All your `.java` source files should be located under `src/main/java` directory.
 
 You may want to upload on your device using `avrdude` . Now you can add `avrdude` configuration parameters in your build file:
 
@@ -24,5 +24,4 @@ You may want to upload on your device using `avrdude` . Now you can add `avrdude
       bps: 57600
       port: /dev/cu.usbserial-A6007Whc
 
-Make sure to change `port` parameter to match your system USB serial port name.
-
+Make sure to change `port` parameter to match your systems serial port name.
