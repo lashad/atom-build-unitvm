@@ -15,5 +15,12 @@
     ]
   }
 ],
-  "context-menu": {}
+  "context-menu": {
+    "atom-workspace": [
+        {
+          "label": "Disassemble 'Y'",
+          "command": "build-unitvm:disassemble"
+        }
+      ]
+  }
 }
