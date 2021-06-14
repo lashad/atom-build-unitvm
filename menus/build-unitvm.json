@@ -7,8 +7,12 @@
         "label": "UnitVM",
         "submenu": [
           {
-            "label": "Upload to device",
+            "label": "Upload App into device",
             "command": "build-unitvm:toggle"
+          },
+          {
+            "label": "Burn UnitVM to device",
+            "command": "build-unitvm:burnUnitVM"
           }
         ]
       }
@@ -16,11 +20,5 @@
   }
 ],
   "context-menu": {
-    "atom-workspace": [
-        {
-          "label": "Disassemble 'Y'",
-          "command": "build-unitvm:disassemble"
-        }
-      ]
   }
 }
