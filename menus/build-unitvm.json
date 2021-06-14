@@ -7,12 +7,8 @@
         "label": "UnitVM",
         "submenu": [
           {
-            "label": "Upload App into device",
-            "command": "build-unitvm:toggle"
-          },
-          {
-            "label": "Burn UnitVM to device",
-            "command": "build-unitvm:burnUnitVM"
+            "label": "Select Serial Port",
+            "command": "build-unitvm:selectSerialPort"
           }
         ]
       }
