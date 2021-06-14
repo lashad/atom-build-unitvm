@@ -9,6 +9,14 @@
           {
             "label": "Select Serial Port",
             "command": "build-unitvm:selectSerialPort"
+          },
+          {
+            "label": "Select Serial Speed",
+            "command": "build-unitvm:selectSerialSpeed"
+          },
+          {
+            "label": "Select MCU",
+            "command": "build-unitvm:selectMCU"
           }
         ]
       }
