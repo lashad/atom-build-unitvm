@@ -30,8 +30,7 @@
     "atom-space-pen-views": "^2.0.3",
     "js-yaml": "^4.1.0",
     "lookpath": "^1.2.1",
-    "temp": "^0.8.3",
-    "voucher": "^0.1.2"
+    "temp": "^0.8.3"
   },
   "devDependencies": {
     "atom-build-spec-helpers": "^0.4.0",
