@@ -19,8 +19,12 @@
             "command": "build-unitvm:selectMCU"
           },
           {
-            "label": "View API",
+            "label": "Java API Doc",
             "command": "build-unitvm:viewApi"
+          },
+          {
+            "label": "UnitKit Home",
+            "command": "build-unitvm:unitkitHome"
           }
         ]
       }
