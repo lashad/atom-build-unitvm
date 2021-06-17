@@ -30,6 +30,10 @@
           {
             "label": "UnitKit Home",
             "command": "build-unitvm:unitkitHome"
+          },
+          {
+            "label": "Download UnitKit Framework",
+            "command": "build-unitvm:downloadUnitKitFramework"
           }
         ]
       }
