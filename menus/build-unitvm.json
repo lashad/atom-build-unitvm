@@ -7,16 +7,21 @@
         "label": "UnitVM",
         "submenu": [
           {
-            "label": "Select Serial Port",
-            "command": "build-unitvm:selectSerialPort"
-          },
-          {
-            "label": "Select Serial Speed",
-            "command": "build-unitvm:selectSerialSpeed"
-          },
-          {
-            "label": "Select MCU",
-            "command": "build-unitvm:selectMCU"
+            "label": "Programmer",
+            "submenu": [
+              {
+                "label": "Select MCU",
+                "command": "build-unitvm:selectMCU"
+              },
+              {
+                "label": "Select Port",
+                "command": "build-unitvm:selectSerialPort"
+              },
+              {
+                "label": "Select Speed",
+                "command": "build-unitvm:selectSerialSpeed"
+              }
+            ]
           },
           {
             "label": "Java API Doc",
