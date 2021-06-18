@@ -1,57 +1,61 @@
 {
-  "name": "build-unitvm",
-  "version": "0.1.0",
-  "description": "Atom Build provider for UnitVM application",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lashad/atom-build-unitvm.git"
-  },
-  "license": "MIT",
-  "main": "lib/unitvm.js",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "consumedServices": {
-    "status-bar": {
-      "versions": {
-        "^1.0.0": "consumeStatusBar"
-      }
-    }
-  },
-  "providedServices": {
-    "builder": {
-      "description": "Runs UnitVM Build processes",
-      "versions": {
-        "2.0.0": "provideBuilder"
-      }
-    }
-  },
-  "dependencies": {
-    "atom-space-pen-views": "^2.0.3",
-    "extract-zip": "^2.0.1",
-    "follow-redirects": "^1.14.1",
-    "js-yaml": "^4.1.0",
-    "lookpath": "^1.2.1",
-    "temp": "^0.8.3"
-  },
-  "devDependencies": {
-    "atom-build-spec-helpers": "^0.4.0",
-    "atom-satisfy-dependencies": "^0.3.0",
-    "babel-eslint": "^4.1.5",
-    "cross-env": "^7.0.3",
-    "esbuild": "^0.12.1",
-    "eslint": "^1.10.1",
-    "eslint-config-atom-build": "^2.0.0",
-    "eslint-plugin-json": "^3.0.0",
-    "fs-extra": "^0.23.1",
-    "temp": "^0.8.3"
-  },
-  "keywords": [
-    "build",
-    "compile",
-    "make",
-    "unitvm",
-    "vm",
-    "java"
-  ]
+    "name": "build-unitvm",
+    "version": "0.1.0",
+    "description": "Atom Build provider for UnitVM application",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lashad/atom-build-unitvm.git"
+    },
+    "license": "MIT",
+    "main": "lib/unitvm.js",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "consumedServices": {
+        "status-bar": {
+            "versions": {
+                "^1.0.0": "consumeStatusBar"
+            }
+        }
+    },
+    "providedServices": {
+        "builder": {
+            "description": "Runs UnitVM Build processes",
+            "versions": {
+                "2.0.0": "provideBuilder"
+            }
+        }
+    },
+    "dependencies": {
+        "atom-space-pen-views": "^2.0.3",
+        "extract-zip": "^2.0.1",
+        "follow-redirects": "^1.14.1",
+        "js-yaml": "^4.1.0",
+        "lookpath": "^1.2.1",
+        "random-bytes": "^1.0.0",
+        "temp": "^0.8.3"
+    },
+    "package-deps": [
+        "build"
+    ],
+    "devDependencies": {
+        "atom-build-spec-helpers": "^0.4.0",
+        "atom-satisfy-dependencies": "^0.3.0",
+        "babel-eslint": "^4.1.5",
+        "cross-env": "^7.0.3",
+        "esbuild": "^0.12.1",
+        "eslint": "^1.10.1",
+        "eslint-config-atom-build": "^2.0.0",
+        "eslint-plugin-json": "^3.0.0",
+        "fs-extra": "^0.23.1",
+        "temp": "^0.8.3"
+    },
+    "keywords": [
+        "build",
+        "compile",
+        "make",
+        "unitvm",
+        "vm",
+        "java"
+    ]
 }

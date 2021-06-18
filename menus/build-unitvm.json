@@ -1,49 +1,48 @@
 {
-  "menu": [
-  {
-    "label": "Packages",
-    "submenu": [
-      {
-        "label": "UnitVM",
-        "submenu": [
-          {
-            "label": "Programmer",
+    "menu": [
+        {
+            "label": "Packages",
             "submenu": [
-              {
-                "label": "Select MCU",
-                "command": "build-unitvm:selectMCU"
-              },
-              {
-                "label": "Select Port",
-                "command": "build-unitvm:selectSerialPort"
-              },
-              {
-                "label": "Select Speed",
-                "command": "build-unitvm:selectSerialSpeed"
-              }
+                {
+                    "label": "UnitVM",
+                    "submenu": [
+                        {
+                            "label": "Programmer",
+                            "submenu": [
+                                {
+                                    "label": "Select MCU",
+                                    "command": "build-unitvm:selectMCU"
+                                },
+                                {
+                                    "label": "Select Port",
+                                    "command": "build-unitvm:selectSerialPort"
+                                },
+                                {
+                                    "label": "Select Speed",
+                                    "command": "build-unitvm:selectSerialSpeed"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Java API Doc",
+                            "command": "build-unitvm:viewApi"
+                        },
+                        {
+                            "label": "Browse UnitKit Home",
+                            "command": "build-unitvm:unitkitHome"
+                        },
+                        {
+                            "label": "Set UnitKit Home Directory",
+                            "command": "build-unitvm:unitkitSetHome"
+                        },
+                        {
+                            "label": "Download UnitKit Framework",
+                            "command": "build-unitvm:downloadUnitKitFramework"
+                        }
+                    ]
+                }
             ]
-          },
-          {
-            "label": "Java API Doc",
-            "command": "build-unitvm:viewApi"
-          },
-          {
-            "label": "Browse UnitKit Home",
-            "command": "build-unitvm:unitkitHome"
-          },
-          {
-            "label": "Set UnitKit Home Directory",
-            "command": "build-unitvm:unitkitSetHome"
-          },
-          {
-            "label": "Download UnitKit Framework",
-            "command": "build-unitvm:downloadUnitKitFramework"
-          }
-        ]
-      }
-    ]
-  }
-],
-  "context-menu": {
-  }
+        }
+    ],
+    "context-menu": {}
 }
