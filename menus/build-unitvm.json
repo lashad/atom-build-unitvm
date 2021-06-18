@@ -28,8 +28,12 @@
             "command": "build-unitvm:viewApi"
           },
           {
-            "label": "UnitKit Home",
+            "label": "Browse UnitKit Home",
             "command": "build-unitvm:unitkitHome"
+          },
+          {
+            "label": "Set UnitKit Home Directory",
+            "command": "build-unitvm:unitkitSetHome"
           },
           {
             "label": "Download UnitKit Framework",
