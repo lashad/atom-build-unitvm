@@ -49,15 +49,7 @@ Click on `UnitVM` button located at the bottom of the status bar. First time the
 
 #### Config File
 
-In your project directory create file `.unitvm-build.yml` and add content below:
-
-    name: AppName
-    eui64: 2C:1C:F6:D9:00:00:00:00
-
-Where `name` is your application name and `eui64` is unique identifier of your application.
-Please note: All your `.java` source files should be located under `src/main/java` directory.
-
-You may want to upload on your device using `avrdude` . Now you can add `avrdude` configuration parameters in your build file:
+In your project directory you will find file `.unitvm-build.yml` the content may look like:
 
     name: AppName
     eui64: 2C:1C:F6:D9:00:00:00:00
@@ -66,5 +58,18 @@ You may want to upload on your device using `avrdude` . Now you can add `avrdude
       bps: 57600
       port: /dev/cu.usbserial-A6007Whc
 
-Make sure to change `port` parameter to match your systems serial port name.
+Where `name` is your application name and `eui64` is unique identifier of your application. The next is the `avrdude` configuration parameters in your build file.
+
+##### Configuration Parameters Description 
+
+| Name       | Description                          |
+| ---------- | ------------------------------------ |
+| `name`     | UnitVM application name              |
+| `eui64`    | UnitVM application unique identifier |
+| `avrdude:` | `avrdude` configuraton group         |
+| `mcu`      | Microcontroller name                 |
+| `bps`      | Serial port speed (bit per second)   |
+| `port`     | Serial port name                     |
+
+>  Make sure to change `port` parameter to match your systems serial port name.
 
