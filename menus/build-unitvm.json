@@ -36,8 +36,8 @@
                             "command": "build-unitvm:unitkitSetHome"
                         },
                         {
-                            "label": "Download UnitKit Framework",
-                            "command": "build-unitvm:downloadUnitKitFramework"
+                            "label": "Install/Update UnitKit Framework",
+                            "command": "build-unitvm:installUpdateUnitKitFramework"
                         }
                     ]
                 }
