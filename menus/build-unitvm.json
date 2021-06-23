@@ -38,6 +38,10 @@
                         {
                             "label": "Install/Update UnitKit Framework",
                             "command": "build-unitvm:installUpdateUnitKitFramework"
+                        },
+                        {
+                            "label": "Burn UnitVM Firmware",
+                            "command": "build-unitvm:selectFirmware"
                         }
                     ]
                 }
