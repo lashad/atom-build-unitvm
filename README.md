@@ -16,16 +16,18 @@ You'll need to install java `OpenJDK` and `avrdude` to build and upload UnitVM a
 
 Right now package is not published in Atom public registry. So,  you need to install manually from GitHub.
 
-Run terminal window and execute the following commands:
+Run terminal window and execute the following commands below:
 
 	$ git clone https://github.com/lashad/atom-build-unitvm.git
 	$ cd atom-build-unitvm
 	$ apm install
 	$ apm link
 
-The `build-unitvm` package is depends on atom [build](https://atom.io/packages/build) and [busy-signal](https://atom.io/packages/busy-signal) packages.
-
->  Note: Atom packages are located in `~/.atom/packages` directory.
+> Note:
+>
+> - You may [download zip](https://github.com/lashad/atom-build-unitvm/archive/refs/heads/master.zip) file and extract in your computer in case if you don't have `git` tool installed.
+>
+> - Atom packages are located in `~/.atom/packages` directory.
 
 Now run Atom Text Editor.
 
