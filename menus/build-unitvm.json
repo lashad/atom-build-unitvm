@@ -24,16 +24,21 @@
                             ]
                         },
                         {
-                            "label": "Java API Doc",
-                            "command": "build-unitvm:viewApi"
-                        },
-                        {
-                            "label": "Browse UnitKit Home",
-                            "command": "build-unitvm:unitkitHome"
-                        },
-                        {
-                            "label": "Set UnitKit Home Directory",
-                            "command": "build-unitvm:unitkitSetHome"
+                            "label": "UnitKit Framework",
+                            "submenu": [
+                                {
+                                    "label": "Java API Doc",
+                                    "command": "build-unitvm:viewApi"
+                                },
+                                {
+                                    "label": "Browse UnitKit Home",
+                                    "command": "build-unitvm:unitkitHome"
+                                },
+                                {
+                                    "label": "Set UnitKit Home Directory",
+                                    "command": "build-unitvm:unitkitSetHome"
+                                }
+                            ]
                         },
                         {
                             "label": "Install/Update UnitKit Framework",
