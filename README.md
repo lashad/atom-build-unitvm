@@ -53,21 +53,21 @@ Click on `UnitVM` button located at the bottom of the status bar. First time the
 
 In your project directory you will find file `.unitvm-build.yml` the content may look like:
 
-    name: AppName
-    eui64: 2C:1C:F6:D9:00:00:00:00
+    name: HelloWorld
+    eui64: E3:D1:96:5B:3B:74:CC:B7
     avrdude:
       mcu: atmega328p
       bps: 57600
       port: /dev/cu.usbserial-A6007Whc
 
-Where `name` is your application name and `eui64` is unique identifier of your application. The next is the `avrdude` configuration parameters in your build file.
+Where `name` is your application name and `eui64` is unique identifier of your uvm binary file. The next is the `avrdude` configuration parameters in your build file.
 
 ##### Configuration Parameters Description 
 
 | Name       | Description                          |
 | ---------- | ------------------------------------ |
 | `name`     | UnitVM application name              |
-| `eui64`    | UnitVM application unique identifier |
+| `eui64`    | UnitVM binary file unique identifier |
 | `avrdude:` | `avrdude` configuraton group         |
 | `mcu`      | Microcontroller name                 |
 | `bps`      | Serial port speed (bit per second)   |
