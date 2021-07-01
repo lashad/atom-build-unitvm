@@ -31,6 +31,10 @@
                                     "command": "build-unitvm:viewApi"
                                 },
                                 {
+                                    "label": "Docs",
+                                    "command": "build-unitvm:selectDocs"
+                                },
+                                {
                                     "label": "Browse UnitKit Home",
                                     "command": "build-unitvm:unitkitHome"
                                 },
